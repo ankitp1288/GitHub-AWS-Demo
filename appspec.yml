@@ -1,5 +1,10 @@
-version: 0.0 
+version: 0.0
 os: windows
 files:
-  - source: \index.html
-    destination: C:\inetpub\wwwroot\code-deploy-demo
+  - source: /index.html
+    destination: C:/inetpub/wwwroot/code-deploy-demo
+hooks:
+  BeforeInstall:
+    - location: /begin-install.bat
+	    timeout: 300
+	    runas: root
