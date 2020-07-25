@@ -3,8 +3,3 @@ os: windows
 files:
   - source: /index.html
     destination: C:/inetpub/wwwroot/code-deploy-demo
-hooks:
-  BeforeInstall:
-    - location: /begin-install.bat
-	    timeout: 300
-	    runas: root
