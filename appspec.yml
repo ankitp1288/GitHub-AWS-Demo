@@ -3,3 +3,7 @@ os: windows
 files:
   - source: /index.html
     destination: C:/inetpub/wwwroot/code-deploy-demo
+hooks:
+    BeforeInstall:
+    AfterInstall:
+    ApplicationStart:
