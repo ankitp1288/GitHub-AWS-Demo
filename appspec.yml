@@ -2,7 +2,7 @@ version: 0.0
 os: windows
 files:
   - source: /index.html
-    destination: /code-deploy-demo
+    destination: C:\inetpub\wwwroot\code-deploy-demo
 hooks:
     BeforeInstall:
     AfterInstall:
